@@ -1,65 +1,60 @@
-# Django-Ecommerce
+# eCommerce🛒
+This is a fully functional eCommerce website with a beautiful user interface and backend functionalities.
 
-Ecommerce website built with Django 2.2.3, Python 3.7.3, and AWS
+## Features
+- User and guest checkout capabilities.
+- Setting up the templates and data structure in the first two modules.
+- Adding user checkout flow with payment integration.
+- After complete basic checkout with a logged-in user.
+- Add in the ability for users to checkout as a guest using cookies.
 
-![image](https://user-images.githubusercontent.com/29988949/65267147-499fc580-dac9-11e9-90e8-eccbc93c7c3a.png)
+## Technologies
+1. Django (Backend)
+2. Bootstrap (Frontend)
+3. CSS (Frontend)
+4. JavaScript (Client-Side)
+5. Paypal Integration (Payment Method)
 
-`Product Slide`
+## Demonstration
+<p align="left">
+  <img width="780" src="preview/demonstration.gif">
+</p>
 
-![image](https://user-images.githubusercontent.com/29988949/65999313-ff67fe00-e451-11e9-9ed9-fc7bce704f17.png)
+## Preview
+#### Store
+<p align="left">
+  <img width="780" src="preview/stores.png">
+</p>
 
-`Shop Page`
-![image](https://user-images.githubusercontent.com/29988949/66098968-923f9000-e559-11e9-8691-cd5c2b181ca1.png)
+#### Cart
+<p align="left">
+  <img width="780" src="preview/cart.png">
+</p>
 
-`Product Detail Page`
-![image](https://user-images.githubusercontent.com/29988949/66291084-bff84200-e895-11e9-8d53-3aa23b29dbae.png)
+#### Checkout
+<p align="left">
+  <img width="780" src="preview/check-out.png">
+</p>
 
-`Cart Page`
-![image](https://user-images.githubusercontent.com/29988949/66291144-f0d87700-e895-11e9-8545-b8f93f799063.png)
-
-`BillingAddress Page`
-![image](https://user-images.githubusercontent.com/29988949/66291542-013d2180-e897-11e9-8ea9-40afcb90cee2.png)
-
-`Stripe Payment Page`
-![image](https://user-images.githubusercontent.com/29988949/66291610-29c51b80-e897-11e9-8b47-20de35d6c1d0.png)
-
-`Order Success Page`
-![image](https://user-images.githubusercontent.com/29988949/66291657-3e091880-e897-11e9-830b-6cf44e72a995.png)
-
-# Installation
-
-`pip install django`
-
-`virtualenv env`
-
-# For Mac/ Linux
-
-`source env/bin/activate`
-
-# For Window
-
-`env\scripts\activate`
-
-`pip install -r requirements.txt`
-
-`python manage.py makemigrations`
-
-`python manage.py migrate`
-
-`python manage.py runserver`
-
-# For Admin Login
-
-```python
-python manage.py createsuperuser
-Username : admin
-Password : 12345678
+## To Run This Project
+1. clone this project on your local machine,
 ```
-# Demo
-
-http://djangoecommerce.pythonanywhere.com
-
-# HTML Template
-
-https://colorlib.com/etc/fashe/index.html
+git clone https://github.com/Joshdb-18/E-comm.git
+```
+2. create a virtual environment inside eCommerce folder,
+```
+virtualenv venv
+```
+3. activate virtual environment,(for windows)
+```
+.\venv\Scripts\activate 
+```
+4. install project dependencies from requirements.txt,
+```
+pip install -r requirements.txt
+```
+5. run project on your local machine,
+```
+python manage.py runserver
+```
 
